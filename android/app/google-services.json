@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "242385283150",
+    "project_id": "rich-friend-project-facf4",
+    "storage_bucket": "rich-friend-project-facf4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242385283150:android:8283dc77ed1fbbdc01bb1f",
+        "android_client_info": {
+          "package_name": "com.JJHCode.rich_friend_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrbcGEELenYeb4W-ww79dXNCVzoHEPxok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
