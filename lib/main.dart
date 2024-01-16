@@ -2,9 +2,11 @@ import 'package:flutter/material.dart'; // 필수 라이브러리 가져오기
 import 'menu/title_menu/home/home.dart';
 import 'logo.dart';
 import 'dart:async'; // 타이머 클래스 가져오기
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+Future<void> main() async {
   // main 함수 : 앱의 진입점
+  await Firebase.initializeApp();
   runApp(const MaterialApp(
     home: MainApp(), // MainAPP 위젯 : 앱 시작점
   ));
