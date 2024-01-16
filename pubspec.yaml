@@ -1,0 +1,23 @@
+name: rich_friend_project
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0-163.1.beta <4.0.0'
+
+dependencies:
+  intl: ^0.17.0     # NumberFormat 사용
+  flutter_slidable: 3.0.1 # slide Scroll Motion
+  flutter_email_sender: ^6.0.2  # 이메일 보내는 라이브러리
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
