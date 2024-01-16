@@ -10,6 +10,9 @@ dependencies:
   intl: ^0.17.0     # NumberFormat 사용
   flutter_slidable: 3.0.1 # slide Scroll Motion
   flutter_email_sender: ^6.0.2  # 이메일 보내는 라이브러리
+  cloud_firestore: 4.14.0   # Firestore 연동
+  flutter_lints: ^2.0.0 # Firebase 연동
+  firebase_core: ^2.24.2  # Firebase 연동
 
   flutter:
     sdk: flutter
@@ -17,7 +20,6 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
